@@ -11,6 +11,8 @@
 		06AAA5D32B13F94000BE95D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AAA5D22B13F94000BE95D8 /* ContentView.swift */; };
 		06AAA5D52B13F94300BE95D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AAA5D42B13F94300BE95D8 /* Assets.xcassets */; };
 		06AAA5D82B13F94300BE95D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AAA5D72B13F94300BE95D8 /* Preview Assets.xcassets */; };
+		06AAA5DF2B13FC6600BE95D8 /* AnimalImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 06AAA5DE2B13FC6600BE95D8 /* AnimalImageClassifier.mlmodel */; };
+		06AAA5E12B13FCB300BE95D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AAA5E02B13FCB300BE95D8 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		06AAA5D22B13F94000BE95D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06AAA5D42B13F94300BE95D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06AAA5D72B13F94300BE95D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06AAA5DE2B13FC6600BE95D8 /* AnimalImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AnimalImageClassifier.mlmodel; sourceTree = "<group>"; };
+		06AAA5E02B13FCB300BE95D8 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			children = (
 				06AAA5D02B13F94000BE95D8 /* Uppgift5CoreMLApp.swift */,
 				06AAA5D22B13F94000BE95D8 /* ContentView.swift */,
+				06AAA5E02B13FCB300BE95D8 /* Model.swift */,
 				06AAA5D42B13F94300BE95D8 /* Assets.xcassets */,
+				06AAA5DE2B13FC6600BE95D8 /* AnimalImageClassifier.mlmodel */,
 				06AAA5D62B13F94300BE95D8 /* Preview Content */,
 			);
 			path = Uppgift5CoreML;
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				06AAA5D32B13F94000BE95D8 /* ContentView.swift in Sources */,
+				06AAA5DF2B13FC6600BE95D8 /* AnimalImageClassifier.mlmodel in Sources */,
 				06AAA5D12B13F94000BE95D8 /* Uppgift5CoreMLApp.swift in Sources */,
+				06AAA5E12B13FCB300BE95D8 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
